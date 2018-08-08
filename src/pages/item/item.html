@@ -1,0 +1,93 @@
+<ion-header>
+	<ion-navbar>
+		<ion-title>Item</ion-title>
+	</ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+	<form [formGroup]="item" (ngSubmit)="submitItem()">
+		<h1>Ubicación</h1>
+		<ion-item>
+			<ion-input placeholder="Nivel 1" type="text" formControlName="nivel1"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-input placeholder="Nivel 2" type="text" formControlName="nivel2"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-input placeholder="Nivel 3" type="text" formControlName="nivel3"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-input placeholder="Nivel 4" type="text" formControlName="nivel4"></ion-input>
+		</ion-item>
+		<h1>Item</h1>
+		<ion-item>
+			<ion-input placeholder="QR Code" type="text" formControlName="qrcode" disabled></ion-input>
+		</ion-item>
+		<ion-item *ngIf="itemsReady">
+			<ion-label>Nombre</ion-label>
+			<ion-select formControlName="nombre" (ionChange)="onChange()">
+				<ion-option *ngFor="let x of items" [value]="x.codigo">
+					{{ x.nombre }}
+				</ion-option>
+			</ion-select>
+		</ion-item>
+		<ion-item>
+			<ion-textarea placeholder="Descripción" formControlName="descripcion" min="0" max="50"></ion-textarea>
+		</ion-item>
+		<ion-row>
+			<ion-col col-12>
+				<ion-img col-12 [src]="picture" style="contain: content; max-width: 100%;"></ion-img>
+			</ion-col>
+		</ion-row>
+		<ion-item>
+			<ion-input placeholder="Marca" type="text" formControlName="marca"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-input placeholder="Modelo" type="text" formControlName="modelo"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-input placeholder="Serie" type="text" formControlName="serie"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label>Largo</ion-label>
+			<ion-input type="number" formControlName="largo"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label>Ancho</ion-label>
+			<ion-input type="number" formControlName="ancho"></ion-input>
+		</ion-item>
+		<ion-item>
+			<ion-label>Profundidad</ion-label>
+			<ion-input type="number" formControlName="profundidad"></ion-input>
+		</ion-item>
+		<ion-list radio-group formControlName="estado">
+			<ion-list-header>
+				Estado
+			</ion-list-header>
+			<ion-item>
+				<ion-label>Bueno</ion-label>
+				<ion-radio value="0"></ion-radio>
+			</ion-item>
+			<ion-item>
+				<ion-label>Regular</ion-label>
+				<ion-radio value="1"></ion-radio>
+			</ion-item>
+			<ion-item>
+				<ion-label>Malo</ion-label>
+				<ion-radio value="2"></ion-radio>
+			</ion-item>
+		</ion-list>
+		<ion-item>
+			<ion-textarea placeholder="Observación" formControlName="observacion" min="0" max="50"></ion-textarea>
+		</ion-item>
+		<ion-row>
+			<ion-col>
+				<button ion-button type="button" (click)="scanBarcode()">Scan Barcode</button>
+			</ion-col>
+			<ion-col>
+				<button ion-button type="submit" [disabled]="!item.valid">Add item</button>
+			</ion-col>
+		</ion-row>
+	</form>
+</ion-content>

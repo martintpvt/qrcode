@@ -1,0 +1,7 @@
+{
+  "name": "qrCodeHC",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
