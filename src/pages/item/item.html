@@ -17,29 +17,21 @@
 		<ion-item>
 			<ion-input placeholder="Nivel 3" type="text" formControlName="nivel3"></ion-input>
 		</ion-item>
-		<ion-item>
-			<ion-input placeholder="Nivel 4" type="text" formControlName="nivel4"></ion-input>
-		</ion-item>
 		<h1>Item</h1>
 		<ion-item>
-			<ion-input placeholder="QR Code" type="text" formControlName="qrcode" disabled></ion-input>
+			<ion-input placeholder="Code" type="text" formControlName="qrcode" disabled></ion-input>
 		</ion-item>
 		<ion-item *ngIf="itemsReady">
 			<ion-label>Nombre</ion-label>
-			<ion-select formControlName="nombre" (ionChange)="onChange()">
-				<ion-option *ngFor="let x of items" [value]="x.codigo">
-					{{ x.nombre }}
+			<ion-select formControlName="nombre">
+				<ion-option *ngFor="let x of items" [value]="x.CODIGO">
+					{{ x.NOMBRE_STD }}
 				</ion-option>
 			</ion-select>
 		</ion-item>
 		<ion-item>
-			<ion-textarea placeholder="Descripción" formControlName="descripcion" min="0" max="50"></ion-textarea>
+			<ion-textarea placeholder="Descripción" formControlName="descripcion"></ion-textarea>
 		</ion-item>
-		<ion-row>
-			<ion-col col-12>
-				<ion-img col-12 [src]="picture" style="contain: content; max-width: 100%;"></ion-img>
-			</ion-col>
-		</ion-row>
 		<ion-item>
 			<ion-input placeholder="Marca" type="text" formControlName="marca"></ion-input>
 		</ion-item>
@@ -48,18 +40,6 @@
 		</ion-item>
 		<ion-item>
 			<ion-input placeholder="Serie" type="text" formControlName="serie"></ion-input>
-		</ion-item>
-		<ion-item>
-			<ion-label>Largo</ion-label>
-			<ion-input type="number" formControlName="largo"></ion-input>
-		</ion-item>
-		<ion-item>
-			<ion-label>Ancho</ion-label>
-			<ion-input type="number" formControlName="ancho"></ion-input>
-		</ion-item>
-		<ion-item>
-			<ion-label>Profundidad</ion-label>
-			<ion-input type="number" formControlName="profundidad"></ion-input>
 		</ion-item>
 		<ion-list radio-group formControlName="estado">
 			<ion-list-header>
@@ -79,7 +59,7 @@
 			</ion-item>
 		</ion-list>
 		<ion-item>
-			<ion-textarea placeholder="Observación" formControlName="observacion" min="0" max="50"></ion-textarea>
+			<ion-textarea placeholder="Observación" formControlName="observacion"></ion-textarea>
 		</ion-item>
 		<ion-row>
 			<ion-col>

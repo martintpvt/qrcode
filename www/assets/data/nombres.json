@@ -1,0 +1,2078 @@
+[
+  {
+    "CODIGO": "0001",
+    "NOMBRE_STD": "A CHECK-Madera"
+  },
+  {
+    "CODIGO": "0005",
+    "NOMBRE_STD": "ABLANDADOR DE AGUA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0010",
+    "NOMBRE_STD": "ABLANDADOR DE CARNE-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0015",
+    "NOMBRE_STD": "ABRILLANTADORA-Metal"
+  },
+  {
+    "CODIGO": "0020",
+    "NOMBRE_STD": "AIRE ACONDICIONADO-Metal"
+  },
+  {
+    "CODIGO": "0025",
+    "NOMBRE_STD": "AIRE ACONDICIONADO-Plastico"
+  },
+  {
+    "CODIGO": "0030",
+    "NOMBRE_STD": "ALTA FRECUENCIA-Metal"
+  },
+  {
+    "CODIGO": "0035",
+    "NOMBRE_STD": "AMASADORA-Metal"
+  },
+  {
+    "CODIGO": "0040",
+    "NOMBRE_STD": "AMBIENTADOR-Plastico"
+  },
+  {
+    "CODIGO": "0045",
+    "NOMBRE_STD": "AMPLIFICADOR-Metal"
+  },
+  {
+    "CODIGO": "0050",
+    "NOMBRE_STD": "ANAQUEL AEREO-Madera"
+  },
+  {
+    "CODIGO": "0055",
+    "NOMBRE_STD": "ANAQUEL AEREO-Metal"
+  },
+  {
+    "CODIGO": "0060",
+    "NOMBRE_STD": "ANAQUEL PEQUE�O-Madera"
+  },
+  {
+    "CODIGO": "0065",
+    "NOMBRE_STD": "ANAQUEL-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0070",
+    "NOMBRE_STD": "ANAQUEL-Madera"
+  },
+  {
+    "CODIGO": "0075",
+    "NOMBRE_STD": "ANAQUEL-Metal"
+  },
+  {
+    "CODIGO": "0080",
+    "NOMBRE_STD": "ANAQUEL-Plastico"
+  },
+  {
+    "CODIGO": "0085",
+    "NOMBRE_STD": "APARADOR-Madera"
+  },
+  {
+    "CODIGO": "0090",
+    "NOMBRE_STD": "ARCHIVADOR AEREO-Madera"
+  },
+  {
+    "CODIGO": "0095",
+    "NOMBRE_STD": "ARCHIVADOR AEREO-Metal"
+  },
+  {
+    "CODIGO": "0100",
+    "NOMBRE_STD": "ARCHIVADOR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0105",
+    "NOMBRE_STD": "ARCHIVADOR-Madera"
+  },
+  {
+    "CODIGO": "0110",
+    "NOMBRE_STD": "ARCHIVADOR-Metal"
+  },
+  {
+    "CODIGO": "0115",
+    "NOMBRE_STD": "ARMARIO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0120",
+    "NOMBRE_STD": "ARMARIO-Madera"
+  },
+  {
+    "CODIGO": "0125",
+    "NOMBRE_STD": "ARMARIO-Metal"
+  },
+  {
+    "CODIGO": "0130",
+    "NOMBRE_STD": "ARROCERA-Metal"
+  },
+  {
+    "CODIGO": "0135",
+    "NOMBRE_STD": "ARTURITO-Madera"
+  },
+  {
+    "CODIGO": "0140",
+    "NOMBRE_STD": "ARTURITO-Metal"
+  },
+  {
+    "CODIGO": "0145",
+    "NOMBRE_STD": "ASPIRADORA-Metal"
+  },
+  {
+    "CODIGO": "0150",
+    "NOMBRE_STD": "ASPIRADORA-Plastico"
+  },
+  {
+    "CODIGO": "0155",
+    "NOMBRE_STD": "AUXILIAR DE COCINA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0160",
+    "NOMBRE_STD": "AUXILIAR DE COCINA-Plastico"
+  },
+  {
+    "CODIGO": "0165",
+    "NOMBRE_STD": "AUXILIAR DE PEDICURA-Cuero"
+  },
+  {
+    "CODIGO": "0170",
+    "NOMBRE_STD": "AUXILIAR DE PELUQUERIA-Plastico"
+  },
+  {
+    "CODIGO": "0175",
+    "NOMBRE_STD": "BALANZA ELECTRICA-Plastico"
+  },
+  {
+    "CODIGO": "0180",
+    "NOMBRE_STD": "BALANZA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0185",
+    "NOMBRE_STD": "BALANZA-Metal"
+  },
+  {
+    "CODIGO": "0190",
+    "NOMBRE_STD": "BANCA DE PIANO-Madera tapiz cuero"
+  },
+  {
+    "CODIGO": "0195",
+    "NOMBRE_STD": "BANCA DE PIANO-Madera tapiz tela"
+  },
+  {
+    "CODIGO": "0200",
+    "NOMBRE_STD": "BANCA PEQUENA-Metal"
+  },
+  {
+    "CODIGO": "0205",
+    "NOMBRE_STD": "BANCA-Madera"
+  },
+  {
+    "CODIGO": "0210",
+    "NOMBRE_STD": "BANCA-Metal"
+  },
+  {
+    "CODIGO": "0215",
+    "NOMBRE_STD": "BASE BAJA PARA PRODUCTO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0220",
+    "NOMBRE_STD": "BASE BAJA PARA PRODUCTO-Madera"
+  },
+  {
+    "CODIGO": "0225",
+    "NOMBRE_STD": "BASE BAJA PARA PRODUCTO-Metal"
+  },
+  {
+    "CODIGO": "0230",
+    "NOMBRE_STD": "BASE DE MESA-Metal"
+  },
+  {
+    "CODIGO": "0235",
+    "NOMBRE_STD": "BASE DE MESA-Madera"
+  },
+  {
+    "CODIGO": "0240",
+    "NOMBRE_STD": "BASURERO-Metal"
+  },
+  {
+    "CODIGO": "0245",
+    "NOMBRE_STD": "BATIDORA GRANDE-Metal"
+  },
+  {
+    "CODIGO": "0250",
+    "NOMBRE_STD": "BATIDORA MEDIANA-Metal"
+  },
+  {
+    "CODIGO": "0255",
+    "NOMBRE_STD": "BAUL-Madera"
+  },
+  {
+    "CODIGO": "0260",
+    "NOMBRE_STD": "BIBLIOTECA-Madera"
+  },
+  {
+    "CODIGO": "0265",
+    "NOMBRE_STD": "BICICLETA ELIPTICA"
+  },
+  {
+    "CODIGO": "0270",
+    "NOMBRE_STD": "BIOMBO-Madera"
+  },
+  {
+    "CODIGO": "0275",
+    "NOMBRE_STD": "BLOQUE DE REPISAS PARA COUNTER REDONDO"
+  },
+  {
+    "CODIGO": "0280",
+    "NOMBRE_STD": "BROILER-PARRILLA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0285",
+    "NOMBRE_STD": "BUTACA EN U TALLADA-Madera"
+  },
+  {
+    "CODIGO": "0290",
+    "NOMBRE_STD": "BUTACA-Madera Tapiz Cuero"
+  },
+  {
+    "CODIGO": "0295",
+    "NOMBRE_STD": "BUTACA-Madera Tapiz Tela"
+  },
+  {
+    "CODIGO": "0300",
+    "NOMBRE_STD": "CAFETERA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0305",
+    "NOMBRE_STD": "CAFETERA-Metal"
+  },
+  {
+    "CODIGO": "0310",
+    "NOMBRE_STD": "CAFETERA-Plastico"
+  },
+  {
+    "CODIGO": "0315",
+    "NOMBRE_STD": "CAJA DE UTILERIA-Madera"
+  },
+  {
+    "CODIGO": "0320",
+    "NOMBRE_STD": "CAJA FUERTE-Metal"
+  },
+  {
+    "CODIGO": "0325",
+    "NOMBRE_STD": "CAJA FUERTE-Plastico"
+  },
+  {
+    "CODIGO": "0330",
+    "NOMBRE_STD": "CAJA PARA DINERO-Metal"
+  },
+  {
+    "CODIGO": "0335",
+    "NOMBRE_STD": "CAJA PARA ROPA SUCIA-Madera"
+  },
+  {
+    "CODIGO": "0340",
+    "NOMBRE_STD": "CAJA REGISTRADORA-Metal"
+  },
+  {
+    "CODIGO": "0345",
+    "NOMBRE_STD": "CAJA TERMICA-Metal"
+  },
+  {
+    "CODIGO": "0350",
+    "NOMBRE_STD": "CAJA-Madera"
+  },
+  {
+    "CODIGO": "0355",
+    "NOMBRE_STD": "CAJAS PARLANTES 300 W"
+  },
+  {
+    "CODIGO": "0360",
+    "NOMBRE_STD": "CAJA PARA ROPA-Madera"
+  },
+  {
+    "CODIGO": "0365",
+    "NOMBRE_STD": "CALENTADOR A VAPOR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0370",
+    "NOMBRE_STD": "CALENTADOR COMIDA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0375",
+    "NOMBRE_STD": "CALENTADOR COMPRESAS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0380",
+    "NOMBRE_STD": "CALENTADOR DE AMBIENTES-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0385",
+    "NOMBRE_STD": "CALENTADOR-Plastico"
+  },
+  {
+    "CODIGO": "0390",
+    "NOMBRE_STD": "CAMA ELECTRICA-Metal"
+  },
+  {
+    "CODIGO": "0395",
+    "NOMBRE_STD": "CAMA PLEGABLE-Metal"
+  },
+  {
+    "CODIGO": "0400",
+    "NOMBRE_STD": "CAMA-Cuero"
+  },
+  {
+    "CODIGO": "0405",
+    "NOMBRE_STD": "CAMA-Madera"
+  },
+  {
+    "CODIGO": "0410",
+    "NOMBRE_STD": "CAMA-Metal"
+  },
+  {
+    "CODIGO": "0415",
+    "NOMBRE_STD": "CAMARA DE ENFRIAMIENTO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0420",
+    "NOMBRE_STD": "CAMARA DE LEUDO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0425",
+    "NOMBRE_STD": "CAMILLA-Metal"
+  },
+  {
+    "CODIGO": "0430",
+    "NOMBRE_STD": "CAMINADORA"
+  },
+  {
+    "CODIGO": "0435",
+    "NOMBRE_STD": "CARRO METALICA-Metal"
+  },
+  {
+    "CODIGO": "0440",
+    "NOMBRE_STD": "CARTELERA-Madera"
+  },
+  {
+    "CODIGO": "0445",
+    "NOMBRE_STD": "CARTELERA-Metal"
+  },
+  {
+    "CODIGO": "0450",
+    "NOMBRE_STD": "CARTELERA-Plastico"
+  },
+  {
+    "CODIGO": "0455",
+    "NOMBRE_STD": "CASILLERO-Madera"
+  },
+  {
+    "CODIGO": "0460",
+    "NOMBRE_STD": "CASILLERO-Metal"
+  },
+  {
+    "CODIGO": "0465",
+    "NOMBRE_STD": "COCHE CALENTON-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0470",
+    "NOMBRE_STD": "COCHE CALENTON-Madera"
+  },
+  {
+    "CODIGO": "0475",
+    "NOMBRE_STD": "COCHE DE BOTONES-Metal"
+  },
+  {
+    "CODIGO": "0480",
+    "NOMBRE_STD": "COCHE DE CONGELACION DE MARISCOS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0485",
+    "NOMBRE_STD": "COCHE DE CONGELACION DE MARISCOS-Metal"
+  },
+  {
+    "CODIGO": "0490",
+    "NOMBRE_STD": "COCHE DE LAVANDERIA-Metal"
+  },
+  {
+    "CODIGO": "0495",
+    "NOMBRE_STD": "COCHE DE LAVANDERIA-Plastico"
+  },
+  {
+    "CODIGO": "0500",
+    "NOMBRE_STD": "COCHE DE LAVANDERIA-Tela"
+  },
+  {
+    "CODIGO": "0505",
+    "NOMBRE_STD": "COCHE DE LIMPIEZA-Metal"
+  },
+  {
+    "CODIGO": "0510",
+    "NOMBRE_STD": "COCHE DE LIMPIEZA-Plastico"
+  },
+  {
+    "CODIGO": "0515",
+    "NOMBRE_STD": "COCHE DE LIMPIEZA-Tela"
+  },
+  {
+    "CODIGO": "0520",
+    "NOMBRE_STD": "COCHE DE PLATOS-Plastico"
+  },
+  {
+    "CODIGO": "0525",
+    "NOMBRE_STD": "COCHE DE ROOM SERVICE-Metal"
+  },
+  {
+    "CODIGO": "0530",
+    "NOMBRE_STD": "COCHE METALICO GRADILLERO-Metal"
+  },
+  {
+    "CODIGO": "0535",
+    "NOMBRE_STD": "COCHE METALICO PARA HABITACIONES-Metal"
+  },
+  {
+    "CODIGO": "0540",
+    "NOMBRE_STD": "COCHE METALICO PORTABANDEJA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0545",
+    "NOMBRE_STD": "COCHE METALICO PORTABANDEJA-Metal"
+  },
+  {
+    "CODIGO": "0550",
+    "NOMBRE_STD": "COCHE METALICO POZO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0555",
+    "NOMBRE_STD": "COCHE METALICO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0560",
+    "NOMBRE_STD": "COCHE MINI BAR-Madera"
+  },
+  {
+    "CODIGO": "0565",
+    "NOMBRE_STD": "COCHE MINI BAR-Plastico"
+  },
+  {
+    "CODIGO": "0570",
+    "NOMBRE_STD": "COCHE PORTA BANDEJAS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0575",
+    "NOMBRE_STD": "COCHE PORTA BANDEJAS-Metal"
+  },
+  {
+    "CODIGO": "0580",
+    "NOMBRE_STD": "COCHE PORTA BANDEJAS-Plastico"
+  },
+  {
+    "CODIGO": "0585",
+    "NOMBRE_STD": "COCHE PORTA CILINDROS-Metal"
+  },
+  {
+    "CODIGO": "0590",
+    "NOMBRE_STD": "COCHE SECA PLATOS-Metal"
+  },
+  {
+    "CODIGO": "0595",
+    "NOMBRE_STD": "COCHE-Metal"
+  },
+  {
+    "CODIGO": "0600",
+    "NOMBRE_STD": "COCINA EMPOTRADA"
+  },
+  {
+    "CODIGO": "0605",
+    "NOMBRE_STD": "COCINA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0610",
+    "NOMBRE_STD": "COCINETA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0615",
+    "NOMBRE_STD": "COCINETA-Metal"
+  },
+  {
+    "CODIGO": "0620",
+    "NOMBRE_STD": "COMODA-Madera"
+  },
+  {
+    "CODIGO": "0625",
+    "NOMBRE_STD": "COMPUTADOR PORTATIL"
+  },
+  {
+    "CODIGO": "0630",
+    "NOMBRE_STD": "COMPUTADOR TODO EN UNO"
+  },
+  {
+    "CODIGO": "0635",
+    "NOMBRE_STD": "COMPUTADOR"
+  },
+  {
+    "CODIGO": "0640",
+    "NOMBRE_STD": "CONGELADOR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0645",
+    "NOMBRE_STD": "CONSOLA-Madera"
+  },
+  {
+    "CODIGO": "0650",
+    "NOMBRE_STD": "CONTENEDOR DE BASUREROS-Madera"
+  },
+  {
+    "CODIGO": "0655",
+    "NOMBRE_STD": "CONTENEDOR DE PRODUCTOS DE LAVANDERIA-Madera"
+  },
+  {
+    "CODIGO": "0660",
+    "NOMBRE_STD": "CONTENEDOR PARA SABANAS Y TOALLAS-Madera"
+  },
+  {
+    "CODIGO": "0665",
+    "NOMBRE_STD": "CONTENEDOR-Madera"
+  },
+  {
+    "CODIGO": "0670",
+    "NOMBRE_STD": "CONVERTIDOR"
+  },
+  {
+    "CODIGO": "0675",
+    "NOMBRE_STD": "COPIADORA"
+  },
+  {
+    "CODIGO": "0680",
+    "NOMBRE_STD": "CORTADORA DE FRUTAS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0685",
+    "NOMBRE_STD": "CORTADORA DE HUESO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0690",
+    "NOMBRE_STD": "CORTADORA DE TELA (TIJERA ELECTRICA)-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0695",
+    "NOMBRE_STD": "COUNTER-Madera"
+  },
+  {
+    "CODIGO": "0700",
+    "NOMBRE_STD": "CREDENZA-Madera"
+  },
+  {
+    "CODIGO": "0705",
+    "NOMBRE_STD": "CREDENZA-Metal"
+  },
+  {
+    "CODIGO": "0710",
+    "NOMBRE_STD": "CUADRO-Madera"
+  },
+  {
+    "CODIGO": "0715",
+    "NOMBRE_STD": "CUADRO-Vidrio"
+  },
+  {
+    "CODIGO": "0720",
+    "NOMBRE_STD": "CUNA-Madera"
+  },
+  {
+    "CODIGO": "0725",
+    "NOMBRE_STD": "DECODIFICADOR"
+  },
+  {
+    "CODIGO": "0730",
+    "NOMBRE_STD": "DISPENSADOR DE AGUA-Metal"
+  },
+  {
+    "CODIGO": "0735",
+    "NOMBRE_STD": "DISPENSADOR DE AGUA-Plastico"
+  },
+  {
+    "CODIGO": "0740",
+    "NOMBRE_STD": "DISPENSADOR DE AGUA-Vidrio"
+  },
+  {
+    "CODIGO": "0745",
+    "NOMBRE_STD": "DISPENSADOR DE JUGO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0750",
+    "NOMBRE_STD": "DISPENSADOR DE JUGO-Metal"
+  },
+  {
+    "CODIGO": "0755",
+    "NOMBRE_STD": "DISPENSADOR DE JUGO-Plastico"
+  },
+  {
+    "CODIGO": "0760",
+    "NOMBRE_STD": "DVD"
+  },
+  {
+    "CODIGO": "0765",
+    "NOMBRE_STD": "DVR IP SEGURIDAD PROFESIONAL H.264 VIDEO COMPRESSION 16 CH"
+  },
+  {
+    "CODIGO": "0770",
+    "NOMBRE_STD": "DVR IP SEGURIDAD PROFESIONAL H.264 VIDEO COMPRESSION"
+  },
+  {
+    "CODIGO": "0775",
+    "NOMBRE_STD": "ECUALIZADOR"
+  },
+  {
+    "CODIGO": "0780",
+    "NOMBRE_STD": "EMBUTIDORA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0785",
+    "NOMBRE_STD": "EMPACADORA AL VACIO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0790",
+    "NOMBRE_STD": "EMPACADORA DE ROPA-Metal"
+  },
+  {
+    "CODIGO": "0795",
+    "NOMBRE_STD": "EMPACADORA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0800",
+    "NOMBRE_STD": "EMPLASTIFICADORA-Plastico"
+  },
+  {
+    "CODIGO": "0805",
+    "NOMBRE_STD": "ENFRIADOR BEBIDAS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0810",
+    "NOMBRE_STD": "ENFRIADOR EXHIBIDOR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0815",
+    "NOMBRE_STD": "ENFRIADOR VINOS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0820",
+    "NOMBRE_STD": "ENFRIADOR VITRINA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0825",
+    "NOMBRE_STD": "ENFRIADOR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0830",
+    "NOMBRE_STD": "EQUIPO DE SONIDO"
+  },
+  {
+    "CODIGO": "0835",
+    "NOMBRE_STD": "EQUIPO SAUNA DE 12 KW-Madera"
+  },
+  {
+    "CODIGO": "0840",
+    "NOMBRE_STD": "ESCALADORA"
+  },
+  {
+    "CODIGO": "0845",
+    "NOMBRE_STD": "ESCALERA PATA DE GALLO"
+  },
+  {
+    "CODIGO": "0850",
+    "NOMBRE_STD": "ESCALERA TELESCOPICA"
+  },
+  {
+    "CODIGO": "0855",
+    "NOMBRE_STD": "ESCALERA TELEFERICA"
+  },
+  {
+    "CODIGO": "0860",
+    "NOMBRE_STD": "ESCRITORIO en L-Madera"
+  },
+  {
+    "CODIGO": "0865",
+    "NOMBRE_STD": "ESCRITORIO-Metal"
+  },
+  {
+    "CODIGO": "0870",
+    "NOMBRE_STD": "ESCRITORIO-Madera"
+  },
+  {
+    "CODIGO": "0875",
+    "NOMBRE_STD": "ESCURRIDOR DE CUBIERTOS"
+  },
+  {
+    "CODIGO": "0880",
+    "NOMBRE_STD": "ESTACION COUNTER-Madera"
+  },
+  {
+    "CODIGO": "0885",
+    "NOMBRE_STD": "ESTACION DE COMPUTADOR-Madera"
+  },
+  {
+    "CODIGO": "0890",
+    "NOMBRE_STD": "ESTACION DE TRABAJO-Madera"
+  },
+  {
+    "CODIGO": "0895",
+    "NOMBRE_STD": "ESTANTERIA"
+  },
+  {
+    "CODIGO": "0900",
+    "NOMBRE_STD": "ESTANTERIA BALONES-Metal"
+  },
+  {
+    "CODIGO": "0905",
+    "NOMBRE_STD": "ESTANTERIA PESAS-Metal"
+  },
+  {
+    "CODIGO": "0910",
+    "NOMBRE_STD": "ESTANTERIA-Plastico"
+  },
+  {
+    "CODIGO": "0915",
+    "NOMBRE_STD": "ESTERILIZADORA-Metal"
+  },
+  {
+    "CODIGO": "0920",
+    "NOMBRE_STD": "EXHIBIDOR-Madera"
+  },
+  {
+    "CODIGO": "0925",
+    "NOMBRE_STD": "EXTINTOR CO2-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0930",
+    "NOMBRE_STD": "EXTINTOR ESPUMA-Metal"
+  },
+  {
+    "CODIGO": "0935",
+    "NOMBRE_STD": "EXTINTOR PQS-Metal"
+  },
+  {
+    "CODIGO": "0940",
+    "NOMBRE_STD": "EXTRACTOR DE OLORES-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0945",
+    "NOMBRE_STD": "EXTRACTOR DE OLORES-Metal"
+  },
+  {
+    "CODIGO": "0950",
+    "NOMBRE_STD": "FREIDORA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0955",
+    "NOMBRE_STD": "GABINETE CONTRA INCENDIOS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0960",
+    "NOMBRE_STD": "GABINETE CONTRA INCENDIOS-Madera"
+  },
+  {
+    "CODIGO": "0965",
+    "NOMBRE_STD": "GABINETE CONTRA INCENDIOS-Metal"
+  },
+  {
+    "CODIGO": "0970",
+    "NOMBRE_STD": "GATEWAY"
+  },
+  {
+    "CODIGO": "0975",
+    "NOMBRE_STD": "GUILLOTINA-Metal"
+  },
+  {
+    "CODIGO": "0980",
+    "NOMBRE_STD": "HIELERA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0985",
+    "NOMBRE_STD": "HORNO COMBI ZANUSSI"
+  },
+  {
+    "CODIGO": "0990",
+    "NOMBRE_STD": "HORNO DE PAN GRANDE-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "0995",
+    "NOMBRE_STD": "HORNO DE PAN PEQUE�O-Metal"
+  },
+  {
+    "CODIGO": "1000",
+    "NOMBRE_STD": "HORNO DE PIZZA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1005",
+    "NOMBRE_STD": "HORNO DE POLLOS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1010",
+    "NOMBRE_STD": "HORNO ELECTRICO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1015",
+    "NOMBRE_STD": "HORNO ELECTRICO-Metal"
+  },
+  {
+    "CODIGO": "1020",
+    "NOMBRE_STD": "HORNO GIRATORIO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1025",
+    "NOMBRE_STD": "HORNO PARA PAPAS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1030",
+    "NOMBRE_STD": "HORNO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1035",
+    "NOMBRE_STD": "HUB"
+  },
+  {
+    "CODIGO": "1040",
+    "NOMBRE_STD": "IDN I/D BD RS422 EPSON 010469A TM - 88-Plastico"
+  },
+  {
+    "CODIGO": "1045",
+    "NOMBRE_STD": "IMPRESORA DE FACTURAS"
+  },
+  {
+    "CODIGO": "1050",
+    "NOMBRE_STD": "IMPRESORA MULTIFUNCION"
+  },
+  {
+    "CODIGO": "1055",
+    "NOMBRE_STD": "IMPRESORA"
+  },
+  {
+    "CODIGO": "1060",
+    "NOMBRE_STD": "INTERFAZ"
+  },
+  {
+    "CODIGO": "1065",
+    "NOMBRE_STD": "KIT DE POSTE ESTANTERIA 21X64 CAMBRO"
+  },
+  {
+    "CODIGO": "1070",
+    "NOMBRE_STD": "LAMINADOR DE JAMON-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1075",
+    "NOMBRE_STD": "LAMINADORA QUESOS Y JAMONES-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1080",
+    "NOMBRE_STD": "LAMINADORA-Metal"
+  },
+  {
+    "CODIGO": "1085",
+    "NOMBRE_STD": "LAMPARA DE ESCRITORIO REGULABLE-Metal"
+  },
+  {
+    "CODIGO": "1090",
+    "NOMBRE_STD": "LAMPARA DE ESCRITORIO-Metal"
+  },
+  {
+    "CODIGO": "1095",
+    "NOMBRE_STD": "LAMPARA DE HIERRO TRES BRAZOS LARGOS-Metal"
+  },
+  {
+    "CODIGO": "1100",
+    "NOMBRE_STD": "LAMPARA DE PASILLO-Metal"
+  },
+  {
+    "CODIGO": "1105",
+    "NOMBRE_STD": "LAMPARA DE PEDESTAL TUBO LARGO-Metal"
+  },
+  {
+    "CODIGO": "1110",
+    "NOMBRE_STD": "LAMPARA DE PEDESTAL TUBO PEQUE�O-Metal"
+  },
+  {
+    "CODIGO": "1115",
+    "NOMBRE_STD": "LAMPARA DE VELADOR-Madera"
+  },
+  {
+    "CODIGO": "1120",
+    "NOMBRE_STD": "LAMPARA DE VELADOR-Metal"
+  },
+  {
+    "CODIGO": "1125",
+    "NOMBRE_STD": "LAMPARA EMPOTRADA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1130",
+    "NOMBRE_STD": "LAMPARA EMPOTRADA-Metal"
+  },
+  {
+    "CODIGO": "1135",
+    "NOMBRE_STD": "LAMPARA MILANO-Metal"
+  },
+  {
+    "CODIGO": "1140",
+    "NOMBRE_STD": "LAMPARA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1145",
+    "NOMBRE_STD": "LAMPARA-Madera"
+  },
+  {
+    "CODIGO": "1150",
+    "NOMBRE_STD": "LAMPARA-Metal"
+  },
+  {
+    "CODIGO": "1155",
+    "NOMBRE_STD": "LAVACABEZAS-Cuero"
+  },
+  {
+    "CODIGO": "1160",
+    "NOMBRE_STD": "LAVADORA DE ALFOMBRAS"
+  },
+  {
+    "CODIGO": "1165",
+    "NOMBRE_STD": "LAVADORA DE PISOS"
+  },
+  {
+    "CODIGO": "1170",
+    "NOMBRE_STD": "LAVAPLATOS POZO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1175",
+    "NOMBRE_STD": "LAVAPLATOS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1180",
+    "NOMBRE_STD": "LECTOR DE TARJETA MULTIPLE EXTERNO CON PUERTO USB"
+  },
+  {
+    "CODIGO": "1185",
+    "NOMBRE_STD": "LICUADORA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1190",
+    "NOMBRE_STD": "LOCKER-Metal"
+  },
+  {
+    "CODIGO": "1195",
+    "NOMBRE_STD": "LOCKER-Madera"
+  },
+  {
+    "CODIGO": "1200",
+    "NOMBRE_STD": "LUPA"
+  },
+  {
+    "CODIGO": "1205",
+    "NOMBRE_STD": "MANEJADOR DE ACCES POINT"
+  },
+  {
+    "CODIGO": "1210",
+    "NOMBRE_STD": "MANGUERA DE INCENDIOS"
+  },
+  {
+    "CODIGO": "1215",
+    "NOMBRE_STD": "MAQUINA DE CHEQUES"
+  },
+  {
+    "CODIGO": "1220",
+    "NOMBRE_STD": "MAQUINA DE COSER"
+  },
+  {
+    "CODIGO": "1225",
+    "NOMBRE_STD": "MAQUINA DE ESCRIBIR"
+  },
+  {
+    "CODIGO": "1230",
+    "NOMBRE_STD": "MAQUINA DE HELADOS"
+  },
+  {
+    "CODIGO": "1235",
+    "NOMBRE_STD": "MAQUINA DE VAPOR"
+  },
+  {
+    "CODIGO": "1240",
+    "NOMBRE_STD": "MAQUINA HIELERA"
+  },
+  {
+    "CODIGO": "1245",
+    "NOMBRE_STD": "MAQUINA METALICA DE VENTILACION-Metal"
+  },
+  {
+    "CODIGO": "1250",
+    "NOMBRE_STD": "MAQUINA MEZCLADORA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1255",
+    "NOMBRE_STD": "MAQUINA PARA ABDOMINALES-Metal"
+  },
+  {
+    "CODIGO": "1260",
+    "NOMBRE_STD": "MAQUINA PARA BISEPTS-Metal"
+  },
+  {
+    "CODIGO": "1265",
+    "NOMBRE_STD": "MAQUINA PARA ESPALDA Y TRIPSES-Metal"
+  },
+  {
+    "CODIGO": "1270",
+    "NOMBRE_STD": "MAQUINA PARA PECHO-Metal"
+  },
+  {
+    "CODIGO": "1275",
+    "NOMBRE_STD": "MAQUINA PARA PIERNAS-Metal"
+  },
+  {
+    "CODIGO": "1280",
+    "NOMBRE_STD": "MAQUINA SACAPUNTAS"
+  },
+  {
+    "CODIGO": "1285",
+    "NOMBRE_STD": "MAQUINA SHAWARMA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1290",
+    "NOMBRE_STD": "MAQUINA VASCULANTE COCINA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1295",
+    "NOMBRE_STD": "MARCO EXTINTOR-Metal"
+  },
+  {
+    "CODIGO": "1300",
+    "NOMBRE_STD": "MARMITA ELECTRICA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1305",
+    "NOMBRE_STD": "MARMITA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1310",
+    "NOMBRE_STD": "MESA ALTA REDONDA-Madera"
+  },
+  {
+    "CODIGO": "1315",
+    "NOMBRE_STD": "MESA AUXILIAR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1320",
+    "NOMBRE_STD": "MESA AUXILIAR-Madera"
+  },
+  {
+    "CODIGO": "1325",
+    "NOMBRE_STD": "MESA AUXILIAR-Metal"
+  },
+  {
+    "CODIGO": "1330",
+    "NOMBRE_STD": "MESA BANQUETE-Madera"
+  },
+  {
+    "CODIGO": "1335",
+    "NOMBRE_STD": "MESA CENTRAL CON VIDRIO RECTANGULAR-Madera"
+  },
+  {
+    "CODIGO": "1340",
+    "NOMBRE_STD": "MESA CENTRAL CON VIDRIO RECTANGULAR-Metal"
+  },
+  {
+    "CODIGO": "1345",
+    "NOMBRE_STD": "MESA CENTRAL CON VIDRIO REDONDO-Madera"
+  },
+  {
+    "CODIGO": "1350",
+    "NOMBRE_STD": "MESA CENTRAL CON VIDRIO REDONDO-Metal"
+  },
+  {
+    "CODIGO": "1355",
+    "NOMBRE_STD": "MESA CENTRAL CUADRADA-Madera"
+  },
+  {
+    "CODIGO": "1360",
+    "NOMBRE_STD": "MESA CENTRAL CUADRADA-Vidrio"
+  },
+  {
+    "CODIGO": "1365",
+    "NOMBRE_STD": "MESA CENTRAL OVALADA-Madera"
+  },
+  {
+    "CODIGO": "1370",
+    "NOMBRE_STD": "MESA CENTRAL RECTANGULAR-Madera"
+  },
+  {
+    "CODIGO": "1375",
+    "NOMBRE_STD": "MESA CENTRAL REDONDA-Madera"
+  },
+  {
+    "CODIGO": "1380",
+    "NOMBRE_STD": "MESA CENTRAL-Madera"
+  },
+  {
+    "CODIGO": "1385",
+    "NOMBRE_STD": "MESA CENTRAL-Metal"
+  },
+  {
+    "CODIGO": "1390",
+    "NOMBRE_STD": "MESA CUADRADA CON VIDRIO-Madera"
+  },
+  {
+    "CODIGO": "1395",
+    "NOMBRE_STD": "MESA CUADRADA DE BANQUETES-Madera"
+  },
+  {
+    "CODIGO": "1400",
+    "NOMBRE_STD": "MESA CUADRADA DE MARMOL-Madera"
+  },
+  {
+    "CODIGO": "1405",
+    "NOMBRE_STD": "MESA CUADRADA DE TRABAJO-Metal"
+  },
+  {
+    "CODIGO": "1410",
+    "NOMBRE_STD": "MESA CUADRADA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1415",
+    "NOMBRE_STD": "MESA CUADRADA-Madera"
+  },
+  {
+    "CODIGO": "1420",
+    "NOMBRE_STD": "MESA CUADRADA-Metal"
+  },
+  {
+    "CODIGO": "1425",
+    "NOMBRE_STD": "MESA CUADRADA-Plastico"
+  },
+  {
+    "CODIGO": "1430",
+    "NOMBRE_STD": "MESA CUADRADA-Vidrio"
+  },
+  {
+    "CODIGO": "1435",
+    "NOMBRE_STD": "MESA DE BANQUETES-Madera"
+  },
+  {
+    "CODIGO": "1440",
+    "NOMBRE_STD": "MESA DE COMPUTADORA-Madera"
+  },
+  {
+    "CODIGO": "1445",
+    "NOMBRE_STD": "MESA DE REUNIONES OVALADA-Madera"
+  },
+  {
+    "CODIGO": "1450",
+    "NOMBRE_STD": "MESA DE REUNIONES-Madera"
+  },
+  {
+    "CODIGO": "1455",
+    "NOMBRE_STD": "MESA DESAYUNADOR REDONDA CON VIDRIO-Madera"
+  },
+  {
+    "CODIGO": "1460",
+    "NOMBRE_STD": "MESA DESAYUNADOR REDONDA-Madera"
+  },
+  {
+    "CODIGO": "1465",
+    "NOMBRE_STD": "MESA ESCRITORIO OVALDA-Madera"
+  },
+  {
+    "CODIGO": "1470",
+    "NOMBRE_STD": "MESA ESCRITORIO RECTANGULAR CON VIDRIO-Metal"
+  },
+  {
+    "CODIGO": "1475",
+    "NOMBRE_STD": "MESA ESQUINERA CUADRADA CON VIDRIO-Madera"
+  },
+  {
+    "CODIGO": "1480",
+    "NOMBRE_STD": "MESA ESQUINERA CUADRADA CON VIDRIO-Metal"
+  },
+  {
+    "CODIGO": "1485",
+    "NOMBRE_STD": "MESA ESQUINERA CUADRADA-Metal"
+  },
+  {
+    "CODIGO": "1490",
+    "NOMBRE_STD": "MESA ESQUINERA CUADRADA-Madera"
+  },
+  {
+    "CODIGO": "1495",
+    "NOMBRE_STD": "MESA ESQUINERA REDONDA CON VIDRIO-Madera"
+  },
+  {
+    "CODIGO": "1500",
+    "NOMBRE_STD": "MESA ESQUINERA REDONDA-Madera"
+  },
+  {
+    "CODIGO": "1505",
+    "NOMBRE_STD": "MESA LARGA OVALADA-Madera"
+  },
+  {
+    "CODIGO": "1510",
+    "NOMBRE_STD": "MESA LARGA VIDRIO PARA TV-Madera"
+  },
+  {
+    "CODIGO": "1515",
+    "NOMBRE_STD": "MESA LARGA VIDRIO PARA TV-Metal"
+  },
+  {
+    "CODIGO": "1520",
+    "NOMBRE_STD": "MESA LARGA VIDRIO-Madera"
+  },
+  {
+    "CODIGO": "1525",
+    "NOMBRE_STD": "MESA LARGA VIDRIO-Metal"
+  },
+  {
+    "CODIGO": "1530",
+    "NOMBRE_STD": "MESA MAYO-Metal"
+  },
+  {
+    "CODIGO": "1535",
+    "NOMBRE_STD": "MESA MEDIALUNA-Madera"
+  },
+  {
+    "CODIGO": "1540",
+    "NOMBRE_STD": "MESA MEDIALUNA-Metal"
+  },
+  {
+    "CODIGO": "1545",
+    "NOMBRE_STD": "MESA OVALADA-Madera"
+  },
+  {
+    "CODIGO": "1550",
+    "NOMBRE_STD": "MESA PEGADA A LA PARED-Madera"
+  },
+  {
+    "CODIGO": "1555",
+    "NOMBRE_STD": "MESA PORTACOMIDA CON RUEDAS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1560",
+    "NOMBRE_STD": "MESA PORTACOMIDA CON RUEDAS-Madera"
+  },
+  {
+    "CODIGO": "1565",
+    "NOMBRE_STD": "MESA PORTACOMIDA CON RUEDAS-Metal"
+  },
+  {
+    "CODIGO": "1570",
+    "NOMBRE_STD": "MESA RECTANGULAR AUXILIAR DE COCINA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1575",
+    "NOMBRE_STD": "MESA RECTANGULAR AUXILIAR-Madera"
+  },
+  {
+    "CODIGO": "1580",
+    "NOMBRE_STD": "MESA RECTANGULAR BAJA-Madera"
+  },
+  {
+    "CODIGO": "1585",
+    "NOMBRE_STD": "MESA RECTANGULAR BANQUETE-Madera"
+  },
+  {
+    "CODIGO": "1590",
+    "NOMBRE_STD": "MESA RECTANGULAR PEQUENA DE BANQUETES-Madera"
+  },
+  {
+    "CODIGO": "1595",
+    "NOMBRE_STD": "MESA RECTANGULAR PEQUENA-Madera"
+  },
+  {
+    "CODIGO": "1600",
+    "NOMBRE_STD": "MESA RECTANGULAR RODANTE-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1605",
+    "NOMBRE_STD": "MESA RECTANGULAR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1610",
+    "NOMBRE_STD": "MESA RECTANGULAR-Madera"
+  },
+  {
+    "CODIGO": "1615",
+    "NOMBRE_STD": "MESA RECTANGULAR-Metal"
+  },
+  {
+    "CODIGO": "1620",
+    "NOMBRE_STD": "MESA RECTANGULAR-Vidrio"
+  },
+  {
+    "CODIGO": "1625",
+    "NOMBRE_STD": "MESA REDONDA ALTA-Madera"
+  },
+  {
+    "CODIGO": "1630",
+    "NOMBRE_STD": "MESA REDONDA BANQUETE-Madera"
+  },
+  {
+    "CODIGO": "1635",
+    "NOMBRE_STD": "MESA REDONDA VIDRIO PARA TV-Madera"
+  },
+  {
+    "CODIGO": "1640",
+    "NOMBRE_STD": "MESA REDONDA VIDRIO-Madera"
+  },
+  {
+    "CODIGO": "1645",
+    "NOMBRE_STD": "MESA REDONDA VIDRIO-Metal"
+  },
+  {
+    "CODIGO": "1650",
+    "NOMBRE_STD": "MESA REDONDA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1655",
+    "NOMBRE_STD": "MESA REDONDA-Madera"
+  },
+  {
+    "CODIGO": "1660",
+    "NOMBRE_STD": "MESA REDONDA-Metal"
+  },
+  {
+    "CODIGO": "1665",
+    "NOMBRE_STD": "MESA REDONDA-Vidrio"
+  },
+  {
+    "CODIGO": "1670",
+    "NOMBRE_STD": "MESA SEMIREDONDA DE BANQUETE-Madera"
+  },
+  {
+    "CODIGO": "1675",
+    "NOMBRE_STD": "MESA SEMIREDONDA-Madera"
+  },
+  {
+    "CODIGO": "1680",
+    "NOMBRE_STD": "MESA TELEVISION-Madera"
+  },
+  {
+    "CODIGO": "1685",
+    "NOMBRE_STD": "MESA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1690",
+    "NOMBRE_STD": "MESA-Madera"
+  },
+  {
+    "CODIGO": "1695",
+    "NOMBRE_STD": "MESA-Metal"
+  },
+  {
+    "CODIGO": "1700",
+    "NOMBRE_STD": "MESILLA CUADRADA-Metal"
+  },
+  {
+    "CODIGO": "1705",
+    "NOMBRE_STD": "MESILLA-Madera"
+  },
+  {
+    "CODIGO": "1710",
+    "NOMBRE_STD": "MESILLA-Plastico"
+  },
+  {
+    "CODIGO": "1715",
+    "NOMBRE_STD": "MESON ACERO INOXIDABLE-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1720",
+    "NOMBRE_STD": "MESON CON CALENTADOR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1725",
+    "NOMBRE_STD": "MESON CON POZO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1730",
+    "NOMBRE_STD": "MESON RECTANGULAR DE COCINA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1735",
+    "NOMBRE_STD": "MESON RECTANGULAR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1740",
+    "NOMBRE_STD": "MESON-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1745",
+    "NOMBRE_STD": "MESON-Madera"
+  },
+  {
+    "CODIGO": "1750",
+    "NOMBRE_STD": "MICRO TIK-Plastico"
+  },
+  {
+    "CODIGO": "1755",
+    "NOMBRE_STD": "MICROONDAS-Metal"
+  },
+  {
+    "CODIGO": "1760",
+    "NOMBRE_STD": "MICROS-Plastico"
+  },
+  {
+    "CODIGO": "1765",
+    "NOMBRE_STD": "MINI BAR-Metal"
+  },
+  {
+    "CODIGO": "1770",
+    "NOMBRE_STD": "MOLINO DE CAFE ELECTRICO-Metal"
+  },
+  {
+    "CODIGO": "1775",
+    "NOMBRE_STD": "MOLINO DE CARNE GRANDE-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1780",
+    "NOMBRE_STD": "MOLINO DE CARNE-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1785",
+    "NOMBRE_STD": "MONITOR DE SEGURIDAD"
+  },
+  {
+    "CODIGO": "1790",
+    "NOMBRE_STD": "MONITOR MICROS"
+  },
+  {
+    "CODIGO": "1795",
+    "NOMBRE_STD": "MONITOR DE COMPUATADORA"
+  },
+  {
+    "CODIGO": "1800",
+    "NOMBRE_STD": "MONTACARGA-Metal"
+  },
+  {
+    "CODIGO": "1805",
+    "NOMBRE_STD": "MOSTRADOR-Madera"
+  },
+  {
+    "CODIGO": "1810",
+    "NOMBRE_STD": "MOTOR-Metal"
+  },
+  {
+    "CODIGO": "1815",
+    "NOMBRE_STD": "MUEBLE DE TELEVISION-Madera"
+  },
+  {
+    "CODIGO": "1820",
+    "NOMBRE_STD": "MUEBLE PIRAMIDAL MADERA-Madera"
+  },
+  {
+    "CODIGO": "1825",
+    "NOMBRE_STD": "PANEL DE CONTROL"
+  },
+  {
+    "CODIGO": "1830",
+    "NOMBRE_STD": "PANTALLA DE PROYECCION-Tela"
+  },
+  {
+    "CODIGO": "1835",
+    "NOMBRE_STD": "PANTALLA LCD"
+  },
+  {
+    "CODIGO": "1840",
+    "NOMBRE_STD": "PARAFINERA"
+  },
+  {
+    "CODIGO": "1845",
+    "NOMBRE_STD": "PARLANTE"
+  },
+  {
+    "CODIGO": "1850",
+    "NOMBRE_STD": "PARRILLA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1855",
+    "NOMBRE_STD": "PEDESTAL-Metal"
+  },
+  {
+    "CODIGO": "1860",
+    "NOMBRE_STD": "PELADOR INDUSTRIAL DE PAPAS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1865",
+    "NOMBRE_STD": "PERCHERO PARA CAMISAS-Metal"
+  },
+  {
+    "CODIGO": "1870",
+    "NOMBRE_STD": "PEREZOSA-Metal"
+  },
+  {
+    "CODIGO": "1875",
+    "NOMBRE_STD": "PEREZOSA-Plastico"
+  },
+  {
+    "CODIGO": "1880",
+    "NOMBRE_STD": "PIANO"
+  },
+  {
+    "CODIGO": "1885",
+    "NOMBRE_STD": "PIZARRA DE TIZA LIQUIDA"
+  },
+  {
+    "CODIGO": "1890",
+    "NOMBRE_STD": "PIZARRA DE TIZA-Madera"
+  },
+  {
+    "CODIGO": "1895",
+    "NOMBRE_STD": "PIZARRON ELECTRICO"
+  },
+  {
+    "CODIGO": "1900",
+    "NOMBRE_STD": "PLANCHA A VAPOR MANIQUI"
+  },
+  {
+    "CODIGO": "1905",
+    "NOMBRE_STD": "PLANCHA A VAPOR OVOIDE"
+  },
+  {
+    "CODIGO": "1910",
+    "NOMBRE_STD": "PLANCHA A VAPOR PRENSA"
+  },
+  {
+    "CODIGO": "1915",
+    "NOMBRE_STD": "PLANCHA A VAPOR"
+  },
+  {
+    "CODIGO": "1920",
+    "NOMBRE_STD": "PLANCHA DE COCINA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1925",
+    "NOMBRE_STD": "PLANCHA ELECTRICA-Metal"
+  },
+  {
+    "CODIGO": "1930",
+    "NOMBRE_STD": "PLANCHA FREIDORA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1935",
+    "NOMBRE_STD": "PLANCHA FREIDORA-Metal"
+  },
+  {
+    "CODIGO": "1940",
+    "NOMBRE_STD": "PLANCHA TOSTADORA-Metal"
+  },
+  {
+    "CODIGO": "1945",
+    "NOMBRE_STD": "PODIO-Madera"
+  },
+  {
+    "CODIGO": "1950",
+    "NOMBRE_STD": "PODIO-Metal"
+  },
+  {
+    "CODIGO": "1955",
+    "NOMBRE_STD": "PORTA MALETA-Metal"
+  },
+  {
+    "CODIGO": "1960",
+    "NOMBRE_STD": "PORTA PERIODICO-Metal"
+  },
+  {
+    "CODIGO": "1965",
+    "NOMBRE_STD": "PORTA PERIODICO-Madera"
+  },
+  {
+    "CODIGO": "1970",
+    "NOMBRE_STD": "PORTABANDEJAS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1975",
+    "NOMBRE_STD": "PORTABOTELLAS-Madera"
+  },
+  {
+    "CODIGO": "1980",
+    "NOMBRE_STD": "POZO LAVAPLATOS-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1985",
+    "NOMBRE_STD": "POZO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "1990",
+    "NOMBRE_STD": "POZO-Metal"
+  },
+  {
+    "CODIGO": "1995",
+    "NOMBRE_STD": "PURIFICADOR DE AIRE 120 V MONOFASICO-Metal"
+  },
+  {
+    "CODIGO": "2000",
+    "NOMBRE_STD": "RACK-Metal"
+  },
+  {
+    "CODIGO": "2005",
+    "NOMBRE_STD": "RADIO-Madera"
+  },
+  {
+    "CODIGO": "2010",
+    "NOMBRE_STD": "REBANADORA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2015",
+    "NOMBRE_STD": "REFRIGERADOR MEDIANO"
+  },
+  {
+    "CODIGO": "2020",
+    "NOMBRE_STD": "REFRIGERADOR MINI-Metal"
+  },
+  {
+    "CODIGO": "2025",
+    "NOMBRE_STD": "REFRIGERADOR PEQUENIO-Metal"
+  },
+  {
+    "CODIGO": "2030",
+    "NOMBRE_STD": "REFRIGERADOR SUSHI-Plastico"
+  },
+  {
+    "CODIGO": "2035",
+    "NOMBRE_STD": "REFRIGERADOR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2040",
+    "NOMBRE_STD": "REFRIGERADOR-Metal"
+  },
+  {
+    "CODIGO": "2045",
+    "NOMBRE_STD": "REGULADOR VOLTAJE-Metal"
+  },
+  {
+    "CODIGO": "2050",
+    "NOMBRE_STD": "RELOJ CONTROL DE PERSONAL"
+  },
+  {
+    "CODIGO": "2055",
+    "NOMBRE_STD": "RELOJ"
+  },
+  {
+    "CODIGO": "2060",
+    "NOMBRE_STD": "REPISA DE VINOS-Madera"
+  },
+  {
+    "CODIGO": "2065",
+    "NOMBRE_STD": "REPISA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2070",
+    "NOMBRE_STD": "REPISA-Madera"
+  },
+  {
+    "CODIGO": "2075",
+    "NOMBRE_STD": "REPISA-Metal"
+  },
+  {
+    "CODIGO": "2080",
+    "NOMBRE_STD": "RODILLO"
+  },
+  {
+    "CODIGO": "2085",
+    "NOMBRE_STD": "ROUTER"
+  },
+  {
+    "CODIGO": "2090",
+    "NOMBRE_STD": "SALAMANDRA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2095",
+    "NOMBRE_STD": "SECADORA DE ALFOMBRA"
+  },
+  {
+    "CODIGO": "2100",
+    "NOMBRE_STD": "SECADORA DE CABEZA CON PEDESTAL"
+  },
+  {
+    "CODIGO": "2105",
+    "NOMBRE_STD": "SECADORA DE PISO"
+  },
+  {
+    "CODIGO": "2110",
+    "NOMBRE_STD": "SECADORA"
+  },
+  {
+    "CODIGO": "2115",
+    "NOMBRE_STD": "SERVIDOR"
+  },
+  {
+    "CODIGO": "2120",
+    "NOMBRE_STD": "SILLA ALTA FIJA SIN BRAZOS-Madera"
+  },
+  {
+    "CODIGO": "2125",
+    "NOMBRE_STD": "SILLA ALTA-Madera"
+  },
+  {
+    "CODIGO": "2130",
+    "NOMBRE_STD": "SILLA APILABLE PEQUENIA-Plastico"
+  },
+  {
+    "CODIGO": "2135",
+    "NOMBRE_STD": "SILLA APILABLE-Metal"
+  },
+  {
+    "CODIGO": "2140",
+    "NOMBRE_STD": "SILLA APILABLE-Plastico"
+  },
+  {
+    "CODIGO": "2145",
+    "NOMBRE_STD": "SILLA CURVA-Madera"
+  },
+  {
+    "CODIGO": "2150",
+    "NOMBRE_STD": "SILLA CURVA-Tela"
+  },
+  {
+    "CODIGO": "2155",
+    "NOMBRE_STD": "SILLA DE BANQUETES-Metal"
+  },
+  {
+    "CODIGO": "2160",
+    "NOMBRE_STD": "SILLA DE BEBE-Madera"
+  },
+  {
+    "CODIGO": "2165",
+    "NOMBRE_STD": "SILLA DE ESCRITORIO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2170",
+    "NOMBRE_STD": "SILLA DE ESCRITORIO-Cuero"
+  },
+  {
+    "CODIGO": "2175",
+    "NOMBRE_STD": "SILLA DE ESCRITORIO-Madera"
+  },
+  {
+    "CODIGO": "2180",
+    "NOMBRE_STD": "SILLA DE ESCRITORIO-Metal"
+  },
+  {
+    "CODIGO": "2185",
+    "NOMBRE_STD": "SILLA DE ESCRITORIO-Plastico"
+  },
+  {
+    "CODIGO": "2190",
+    "NOMBRE_STD": "SILLA DE PEDICURA-Cuero"
+  },
+  {
+    "CODIGO": "2195",
+    "NOMBRE_STD": "SILLA DE SALA CON ESPALDAR REDONDO-Cuero"
+  },
+  {
+    "CODIGO": "2200",
+    "NOMBRE_STD": "SILLA DE SALA CON ESPALDAR REDONDO-Madera"
+  },
+  {
+    "CODIGO": "2205",
+    "NOMBRE_STD": "SILLA DE SALA CON ESPALDAR REDONDO-Metal"
+  },
+  {
+    "CODIGO": "2210",
+    "NOMBRE_STD": "SILLA DE SALA CON ESPALDAR REDONDO-Tela"
+  },
+  {
+    "CODIGO": "2215",
+    "NOMBRE_STD": "SILLA FIJA CON BRAZOS DE MIMBRE-Metal"
+  },
+  {
+    "CODIGO": "2220",
+    "NOMBRE_STD": "SILLA FIJA CON BRAZOS-Cuero"
+  },
+  {
+    "CODIGO": "2225",
+    "NOMBRE_STD": "SILLA FIJA CON BRAZOS-Madera"
+  },
+  {
+    "CODIGO": "2230",
+    "NOMBRE_STD": "SILLA FIJA CON BRAZOS-Metal"
+  },
+  {
+    "CODIGO": "2235",
+    "NOMBRE_STD": "SILLA FIJA CON BRAZOS-Plastico"
+  },
+  {
+    "CODIGO": "2240",
+    "NOMBRE_STD": "SILLA FIJA SIN BRAZOS-Cuero"
+  },
+  {
+    "CODIGO": "2245",
+    "NOMBRE_STD": "SILLA FIJA SIN BRAZOS-Madera"
+  },
+  {
+    "CODIGO": "2250",
+    "NOMBRE_STD": "SILLA FIJA SIN BRAZOS-Metal"
+  },
+  {
+    "CODIGO": "2255",
+    "NOMBRE_STD": "SILLA FIJA SIN BRAZOS-Plastico"
+  },
+  {
+    "CODIGO": "2260",
+    "NOMBRE_STD": "SILLA GIRATORIA CON BRAZOS-Cuero"
+  },
+  {
+    "CODIGO": "2265",
+    "NOMBRE_STD": "SILLA GIRATORIA CON BRAZOS-Madera"
+  },
+  {
+    "CODIGO": "2270",
+    "NOMBRE_STD": "SILLA GIRATORIA CON BRAZOS-Metal"
+  },
+  {
+    "CODIGO": "2275",
+    "NOMBRE_STD": "SILLA GIRATORIA CON BRAZOS-Plastico"
+  },
+  {
+    "CODIGO": "2280",
+    "NOMBRE_STD": "SILLA GIRATORIA SIN BRAZOS-Cuero"
+  },
+  {
+    "CODIGO": "2285",
+    "NOMBRE_STD": "SILLA GIRATORIA SIN BRAZOS-Metal"
+  },
+  {
+    "CODIGO": "2290",
+    "NOMBRE_STD": "SILLA GIRATORIA SIN BRAZOS-Plastico"
+  },
+  {
+    "CODIGO": "2295",
+    "NOMBRE_STD": "SILLA HIDRAULICA PELUQUERIA-Cuero"
+  },
+  {
+    "CODIGO": "2300",
+    "NOMBRE_STD": "SILLA PARA BANO DE MINUSVALIDO-Plastico"
+  },
+  {
+    "CODIGO": "2305",
+    "NOMBRE_STD": "SILLA PLEGABLE-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2310",
+    "NOMBRE_STD": "SILLA PLEGABLE-Metal"
+  },
+  {
+    "CODIGO": "2315",
+    "NOMBRE_STD": "SILLA TIFFANY-Metal"
+  },
+  {
+    "CODIGO": "2320",
+    "NOMBRE_STD": "SILLON BILATERAL-Cuero"
+  },
+  {
+    "CODIGO": "2325",
+    "NOMBRE_STD": "SILLON BILATERAL-Tela"
+  },
+  {
+    "CODIGO": "2330",
+    "NOMBRE_STD": "SILLON BIPERSONAL-Cuero"
+  },
+  {
+    "CODIGO": "2335",
+    "NOMBRE_STD": "SILLON BIPERSONAL-Tela"
+  },
+  {
+    "CODIGO": "2340",
+    "NOMBRE_STD": "SILLON EJECUTIVO CON BRAZOS-Cuero"
+  },
+  {
+    "CODIGO": "2345",
+    "NOMBRE_STD": "SILLON EJECUTIVO GIRATORIO-Cuero"
+  },
+  {
+    "CODIGO": "2350",
+    "NOMBRE_STD": "SILLON EJECUTIVO GIRATORIO-Tela"
+  },
+  {
+    "CODIGO": "2355",
+    "NOMBRE_STD": "SILLON EJECUTIVO-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2360",
+    "NOMBRE_STD": "SILLON EJECUTIVO-Cuero"
+  },
+  {
+    "CODIGO": "2365",
+    "NOMBRE_STD": "SILLON EJECUTIVO-Plastico"
+  },
+  {
+    "CODIGO": "2370",
+    "NOMBRE_STD": "SILLON EJECUTIVO-Tela"
+  },
+  {
+    "CODIGO": "2375",
+    "NOMBRE_STD": "SILLON EN L-Madera"
+  },
+  {
+    "CODIGO": "2380",
+    "NOMBRE_STD": "SILLON EN L-Tela"
+  },
+  {
+    "CODIGO": "2385",
+    "NOMBRE_STD": "SILLON SIN ESPALDAR-Cuero"
+  },
+  {
+    "CODIGO": "2390",
+    "NOMBRE_STD": "SILLON TRIPERSONAL-Cuero"
+  },
+  {
+    "CODIGO": "2395",
+    "NOMBRE_STD": "SILLON TRIPERSONAL-Tela"
+  },
+  {
+    "CODIGO": "2400",
+    "NOMBRE_STD": "SILLON UNIPERSONAL-Cuero"
+  },
+  {
+    "CODIGO": "2405",
+    "NOMBRE_STD": "SILLON UNIPERSONAL-Madera"
+  },
+  {
+    "CODIGO": "2410",
+    "NOMBRE_STD": "SILLON UNIPERSONAL-Tela"
+  },
+  {
+    "CODIGO": "2415",
+    "NOMBRE_STD": "SILLON-Cuero"
+  },
+  {
+    "CODIGO": "2420",
+    "NOMBRE_STD": "SILLON-Madera"
+  },
+  {
+    "CODIGO": "2425",
+    "NOMBRE_STD": "SILLON-Tela"
+  },
+  {
+    "CODIGO": "2430",
+    "NOMBRE_STD": "SOFA CAMA-Metal"
+  },
+  {
+    "CODIGO": "2435",
+    "NOMBRE_STD": "SOFA CAMA-Tela"
+  },
+  {
+    "CODIGO": "2440",
+    "NOMBRE_STD": "SOFA-Cuero"
+  },
+  {
+    "CODIGO": "2445",
+    "NOMBRE_STD": "SOFA-Tela"
+  },
+  {
+    "CODIGO": "2450",
+    "NOMBRE_STD": "SUSHI-Plastico"
+  },
+  {
+    "CODIGO": "2455",
+    "NOMBRE_STD": "SWITCH"
+  },
+  {
+    "CODIGO": "2460",
+    "NOMBRE_STD": "SYSTEM CONTROLER"
+  },
+  {
+    "CODIGO": "2465",
+    "NOMBRE_STD": "TABLERO RECTANGULAR PARA PLANCHAR-Metal"
+  },
+  {
+    "CODIGO": "2470",
+    "NOMBRE_STD": "TABLERO RECTANGULAR-Madera"
+  },
+  {
+    "CODIGO": "2475",
+    "NOMBRE_STD": "TABURETE-Madera"
+  },
+  {
+    "CODIGO": "2480",
+    "NOMBRE_STD": "TABURETE-Metal"
+  },
+  {
+    "CODIGO": "2485",
+    "NOMBRE_STD": "TELEFONO DE PARED"
+  },
+  {
+    "CODIGO": "2490",
+    "NOMBRE_STD": "TELEFONO INALAMBRICO"
+  },
+  {
+    "CODIGO": "2495",
+    "NOMBRE_STD": "TELEFONO IP"
+  },
+  {
+    "CODIGO": "2500",
+    "NOMBRE_STD": "TELEVISION"
+  },
+  {
+    "CODIGO": "2505",
+    "NOMBRE_STD": "TENSIOMETRO-Metal"
+  },
+  {
+    "CODIGO": "2510",
+    "NOMBRE_STD": "TINA DE AGUA-Plastico"
+  },
+  {
+    "CODIGO": "2515",
+    "NOMBRE_STD": "TOCADOR DOBLE DE PELUQUERIA-Madera"
+  },
+  {
+    "CODIGO": "2520",
+    "NOMBRE_STD": "TOCADOR DOBLE-Madera"
+  },
+  {
+    "CODIGO": "2525",
+    "NOMBRE_STD": "TRANSFORMADOR-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2530",
+    "NOMBRE_STD": "TRANSPORTADOR ISOTERMICO"
+  },
+  {
+    "CODIGO": "2535",
+    "NOMBRE_STD": "TRITURADOR CUSTER DE CARNE-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2540",
+    "NOMBRE_STD": "TRITURADOR DE CARNE CUSTER GRANDE-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2545",
+    "NOMBRE_STD": "TRITURADOR DE PAPEL"
+  },
+  {
+    "CODIGO": "2550",
+    "NOMBRE_STD": "UPS"
+  },
+  {
+    "CODIGO": "2555",
+    "NOMBRE_STD": "VAPORERA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2560",
+    "NOMBRE_STD": "VELADOR-Madera"
+  },
+  {
+    "CODIGO": "2565",
+    "NOMBRE_STD": "VENTILADOR DE MESA"
+  },
+  {
+    "CODIGO": "2570",
+    "NOMBRE_STD": "VENTILADOR DE PEDESTAL"
+  },
+  {
+    "CODIGO": "2575",
+    "NOMBRE_STD": "VITRINA PANERA-Metal"
+  },
+  {
+    "CODIGO": "2580",
+    "NOMBRE_STD": "VITRINA-Acero Inoxidable"
+  },
+  {
+    "CODIGO": "2585",
+    "NOMBRE_STD": "VITRINA-Metal"
+  },
+  {
+    "CODIGO": "2590",
+    "NOMBRE_STD": "WAFFLERA-Acero Inoxidable"
+  }
+]
