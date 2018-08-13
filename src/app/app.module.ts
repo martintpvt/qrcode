@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { HttpClientModule } from '@angular/common/http';
+import { Device } from '@ionic-native/device';
 import { TodosProvider } from '../providers/todos/todos';
 
 @NgModule({
@@ -31,7 +32,8 @@ import { TodosProvider } from '../providers/todos/todos';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     BarcodeScanner,
-    TodosProvider
+    TodosProvider,
+    Device
   ]
 })
 export class AppModule {}

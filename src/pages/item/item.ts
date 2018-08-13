@@ -4,6 +4,7 @@ import { BarcodeScanner, BarcodeScanResult, BarcodeScannerOptions } from '@ionic
 import { Validators, FormBuilder, FormGroup } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { TodosProvider } from '../../providers/todos/todos';
+import { Device } from '@ionic-native/device';
 import 'rxjs/add/operator/map';
 
 @IonicPage()
@@ -30,7 +31,8 @@ export class ItemPage {
 		private barcode: BarcodeScanner,
 		private formBuilder: FormBuilder,
 		private http: HttpClient,
-		private todoService: TodosProvider) {
+		private todoService: TodosProvider,
+		private device: Device) {
 		this.item = this.formBuilder.group({
 			nivel1: ['', Validators.required],
 			nivel2: ['', Validators.required],
@@ -51,31 +53,12 @@ export class ItemPage {
 		});
 	}
 
-/*
-	onChange() {
-		this.http.get('./assets/data/datos_hc.json').map(res => res).subscribe(data => {
-			for(var i = 0; i < 186; i++) {
-				if(data[i].codigo == this.item.controls['nombre'].value) {
-					//this.item.controls['descripcion'].setValue(data[i].NOMBRE_STD);
-				}
-			}
-		});
-	}
-	*/
-
 	async scanBarcode() {
 		this.results = await this.barcode.scan();
 		var code = this.results.text;
 		this.item.controls['qrcode'].setValue(code);
 
 		this.http.get('./assets/data/datos_hc.json').map(res => res).subscribe(data => {
-			/*
-			for(var i = 0; i < 186; i++) {
-				if(data[i].CODIGO_ACTUAL == code) {
-					console.log(data[i].DESCRIPCION);
-				}
-			}
-			*/
 			this.objects = data as any[];
 			for(let a of this.objects) {
 				if(code == a.CODIGO_ACTUAL) {
@@ -83,6 +66,8 @@ export class ItemPage {
 					this.item.controls['marca'].setValue(a.MARCA);
 					this.item.controls['modelo'].setValue(a.MODELO);
 					this.item.controls['serie'].setValue(a.SERIE);
+
+					break;
 				}
 			}
 		});
@@ -101,9 +86,11 @@ export class ItemPage {
 			serie: this.item.controls['serie'].value,
 			estado: this.item.controls['estado'].value,
 			observacion: this.item.controls['observacion'].value,
-			timestamp: new Date().toLocaleDateString()
+			timestamp: new Date(),
+			device: this.device.uuid
 		});
 
+		alert("Item ingresado");
 
 		this.item.controls['qrcode'].reset();
 		this.item.controls['nombre'].reset();

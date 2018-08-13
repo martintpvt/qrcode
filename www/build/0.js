@@ -1,14 +1,14 @@
 webpackJsonp([0],{
 
-/***/ 289:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ItemPageModule", function() { return ItemPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item__ = __webpack_require__(291);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,19 +38,20 @@ var ItemPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 290:
+/***/ 291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__ = __webpack_require__(199);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_common_http__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_todos_todos__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map__ = __webpack_require__(291);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_device__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -102,8 +103,9 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 
 
 
+
 var ItemPage = /** @class */ (function () {
-    function ItemPage(navCtrl, navParams, barcode, formBuilder, http, todoService) {
+    function ItemPage(navCtrl, navParams, barcode, formBuilder, http, todoService, device) {
         var _this = this;
         this.navCtrl = navCtrl;
         this.navParams = navParams;
@@ -111,6 +113,7 @@ var ItemPage = /** @class */ (function () {
         this.formBuilder = formBuilder;
         this.http = http;
         this.todoService = todoService;
+        this.device = device;
         this.itemsReady = false;
         this.item = this.formBuilder.group({
             nivel1: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required],
@@ -130,17 +133,6 @@ var ItemPage = /** @class */ (function () {
             _this.itemsReady = true;
         });
     }
-    /*
-        onChange() {
-            this.http.get('./assets/data/datos_hc.json').map(res => res).subscribe(data => {
-                for(var i = 0; i < 186; i++) {
-                    if(data[i].codigo == this.item.controls['nombre'].value) {
-                        //this.item.controls['descripcion'].setValue(data[i].NOMBRE_STD);
-                    }
-                }
-            });
-        }
-        */
     ItemPage.prototype.scanBarcode = function () {
         return __awaiter(this, void 0, void 0, function () {
             var _this = this;
@@ -155,17 +147,16 @@ var ItemPage = /** @class */ (function () {
                         code = this.results.text;
                         this.item.controls['qrcode'].setValue(code);
                         this.http.get('./assets/data/datos_hc.json').map(function (res) { return res; }).subscribe(function (data) {
-                            /*
-                            for(var i = 0; i < 186; i++) {
-                                if(data[i].CODIGO_ACTUAL == code) {
-                                    console.log(data[i].DESCRIPCION);
-                                }
-                            }
-                            */
                             _this.objects = data;
                             for (var _i = 0, _a = _this.objects; _i < _a.length; _i++) {
                                 var a = _a[_i];
-                                console.log(code == a.CODIGO_ACTUAL);
+                                if (code == a.CODIGO_ACTUAL) {
+                                    _this.item.controls['descripcion'].setValue(a.DESCRIPCION);
+                                    _this.item.controls['marca'].setValue(a.MARCA);
+                                    _this.item.controls['modelo'].setValue(a.MODELO);
+                                    _this.item.controls['serie'].setValue(a.SERIE);
+                                    break;
+                                }
                             }
                         });
                         return [2 /*return*/];
@@ -186,8 +177,10 @@ var ItemPage = /** @class */ (function () {
             serie: this.item.controls['serie'].value,
             estado: this.item.controls['estado'].value,
             observacion: this.item.controls['observacion'].value,
-            timestamp: new Date().toLocaleDateString()
+            timestamp: new Date(),
+            device: this.device.uuid
         });
+        alert("Item ingresado");
         this.item.controls['qrcode'].reset();
         this.item.controls['nombre'].reset();
         this.item.controls['descripcion'].reset();
@@ -206,7 +199,8 @@ var ItemPage = /** @class */ (function () {
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
             __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormBuilder */],
             __WEBPACK_IMPORTED_MODULE_4__angular_common_http__["a" /* HttpClient */],
-            __WEBPACK_IMPORTED_MODULE_5__providers_todos_todos__["a" /* TodosProvider */]])
+            __WEBPACK_IMPORTED_MODULE_5__providers_todos_todos__["a" /* TodosProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__ionic_native_device__["a" /* Device */]])
     ], ItemPage);
     return ItemPage;
 }());
@@ -215,7 +209,7 @@ var ItemPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 291:
+/***/ 292:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

@@ -13,8 +13,8 @@ export class TodosProvider {
 		this.db = new PouchDB('hc');
 
 		//this.remote = 'http://10.63.0.252:5984/cloudo';
-		//this.remote = 'http://192.168.0.80:5984/hc';
-		this.remote = 'http://10.10.61.131:5984/hc';
+		this.remote = 'http://192.168.1.5:5984/hc';
+		//this.remote = 'http://10.10.61.131:5984/hc';
 
 		let options = {
 			live: true,
