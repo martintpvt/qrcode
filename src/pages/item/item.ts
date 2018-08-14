@@ -26,7 +26,8 @@ export class ItemPage {
 
 	itemsReady = false;
 
-	constructor(	public navCtrl: NavController, 
+	constructor(	
+		public navCtrl: NavController, 
 		public navParams: NavParams, 
 		private barcode: BarcodeScanner,
 		private formBuilder: FormBuilder,
@@ -37,7 +38,7 @@ export class ItemPage {
 			nivel1: ['', Validators.required],
 			nivel2: ['', Validators.required],
 			nivel3: ['', Validators.required],
-			nombre: ['', Validators.required],
+			nombre: [''],
 			descripcion: ['', Validators.compose([Validators.minLength(1), Validators.maxLength(100), Validators.required])],
 			qrcode: ['', Validators.compose([Validators.minLength(1), Validators.maxLength(20), Validators.required])],
 			marca: ['', Validators.required],
@@ -55,22 +56,38 @@ export class ItemPage {
 
 	async scanBarcode() {
 		this.results = await this.barcode.scan();
-		var code = this.results.text;
-		this.item.controls['qrcode'].setValue(code);
+		this.item.controls['qrcode'].setValue(this.results.text);
+
+		this.searchItem();
+	}
+
+	searchItem() {
+		var code = this.item.controls['qrcode'].value;
 
 		this.http.get('./assets/data/datos_hc.json').map(res => res).subscribe(data => {
 			this.objects = data as any[];
 			for(let a of this.objects) {
 				if(code == a.CODIGO_ACTUAL) {
+					this.item.controls['nombre'].setValue(a.DESCRIPCION);
 					this.item.controls['descripcion'].setValue(a.DESCRIPCION);
 					this.item.controls['marca'].setValue(a.MARCA);
 					this.item.controls['modelo'].setValue(a.MODELO);
 					this.item.controls['serie'].setValue(a.SERIE);
 
 					break;
+				} else {
+					this.item.controls['nombre'].setValue('');
+					this.item.controls['descripcion'].setValue('');
+					this.item.controls['marca'].setValue('');
+					this.item.controls['modelo'].setValue('');
+					this.item.controls['serie'].setValue('');
 				}
 			}
 		});
+	}
+
+	nameChanged() {
+		this.item.controls['descripcion'].setValue(this.item.controls['nombre'].value);
 	}
 
 	submitItem() {

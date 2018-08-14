@@ -19,12 +19,12 @@
 		</ion-item>
 		<h1>Item</h1>
 		<ion-item>
-			<ion-input placeholder="Code" type="text" formControlName="qrcode" disabled></ion-input>
+			<ion-input placeholder="Code" type="text" formControlName="qrcode" (ionChange)="searchItem()"></ion-input>
 		</ion-item>
 		<ion-item *ngIf="itemsReady">
 			<ion-label>Nombre</ion-label>
-			<ion-select formControlName="nombre">
-				<ion-option *ngFor="let x of items" [value]="x.CODIGO">
+			<ion-select formControlName="nombre" (ionChange)="nameChanged()">
+				<ion-option *ngFor="let x of items" [value]="x.NOMBRE_STD">
 					{{ x.NOMBRE_STD }}
 				</ion-option>
 			</ion-select>

@@ -119,7 +119,7 @@ var ItemPage = /** @class */ (function () {
             nivel1: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required],
             nivel2: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required],
             nivel3: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required],
-            nombre: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required],
+            nombre: [''],
             descripcion: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].minLength(1), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].maxLength(100), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required])],
             qrcode: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].minLength(1), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].maxLength(20), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required])],
             marca: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required],
@@ -135,8 +135,7 @@ var ItemPage = /** @class */ (function () {
     }
     ItemPage.prototype.scanBarcode = function () {
         return __awaiter(this, void 0, void 0, function () {
-            var _this = this;
-            var _a, code;
+            var _a;
             return __generator(this, function (_b) {
                 switch (_b.label) {
                     case 0:
@@ -144,25 +143,40 @@ var ItemPage = /** @class */ (function () {
                         return [4 /*yield*/, this.barcode.scan()];
                     case 1:
                         _a.results = _b.sent();
-                        code = this.results.text;
-                        this.item.controls['qrcode'].setValue(code);
-                        this.http.get('./assets/data/datos_hc.json').map(function (res) { return res; }).subscribe(function (data) {
-                            _this.objects = data;
-                            for (var _i = 0, _a = _this.objects; _i < _a.length; _i++) {
-                                var a = _a[_i];
-                                if (code == a.CODIGO_ACTUAL) {
-                                    _this.item.controls['descripcion'].setValue(a.DESCRIPCION);
-                                    _this.item.controls['marca'].setValue(a.MARCA);
-                                    _this.item.controls['modelo'].setValue(a.MODELO);
-                                    _this.item.controls['serie'].setValue(a.SERIE);
-                                    break;
-                                }
-                            }
-                        });
+                        this.item.controls['qrcode'].setValue(this.results.text);
+                        this.searchItem();
                         return [2 /*return*/];
                 }
             });
         });
+    };
+    ItemPage.prototype.searchItem = function () {
+        var _this = this;
+        var code = this.item.controls['qrcode'].value;
+        this.http.get('./assets/data/datos_hc.json').map(function (res) { return res; }).subscribe(function (data) {
+            _this.objects = data;
+            for (var _i = 0, _a = _this.objects; _i < _a.length; _i++) {
+                var a = _a[_i];
+                if (code == a.CODIGO_ACTUAL) {
+                    _this.item.controls['nombre'].setValue(a.DESCRIPCION);
+                    _this.item.controls['descripcion'].setValue(a.DESCRIPCION);
+                    _this.item.controls['marca'].setValue(a.MARCA);
+                    _this.item.controls['modelo'].setValue(a.MODELO);
+                    _this.item.controls['serie'].setValue(a.SERIE);
+                    break;
+                }
+                else {
+                    _this.item.controls['nombre'].setValue('');
+                    _this.item.controls['descripcion'].setValue('');
+                    _this.item.controls['marca'].setValue('');
+                    _this.item.controls['modelo'].setValue('');
+                    _this.item.controls['serie'].setValue('');
+                }
+            }
+        });
+    };
+    ItemPage.prototype.nameChanged = function () {
+        this.item.controls['descripcion'].setValue(this.item.controls['nombre'].value);
     };
     ItemPage.prototype.submitItem = function () {
         this.todoService.createTodo({
@@ -192,7 +206,7 @@ var ItemPage = /** @class */ (function () {
     };
     ItemPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-item',template:/*ion-inline-start:"C:\Users\marti\OneDrive\Documents\ionic\qrCodeHC\src\pages\item\item.html"*/'<ion-header>\n	<ion-navbar>\n		<ion-title>Item</ion-title>\n	</ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n	<form [formGroup]="item" (ngSubmit)="submitItem()">\n		<h1>Ubicación</h1>\n		<ion-item>\n			<ion-input placeholder="Nivel 1" type="text" formControlName="nivel1"></ion-input>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Nivel 2" type="text" formControlName="nivel2"></ion-input>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Nivel 3" type="text" formControlName="nivel3"></ion-input>\n		</ion-item>\n		<h1>Item</h1>\n		<ion-item>\n			<ion-input placeholder="Code" type="text" formControlName="qrcode" disabled></ion-input>\n		</ion-item>\n		<ion-item *ngIf="itemsReady">\n			<ion-label>Nombre</ion-label>\n			<ion-select formControlName="nombre">\n				<ion-option *ngFor="let x of items" [value]="x.CODIGO">\n					{{ x.NOMBRE_STD }}\n				</ion-option>\n			</ion-select>\n		</ion-item>\n		<ion-item>\n			<ion-textarea placeholder="Descripción" formControlName="descripcion"></ion-textarea>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Marca" type="text" formControlName="marca"></ion-input>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Modelo" type="text" formControlName="modelo"></ion-input>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Serie" type="text" formControlName="serie"></ion-input>\n		</ion-item>\n		<ion-list radio-group formControlName="estado">\n			<ion-list-header>\n				Estado\n			</ion-list-header>\n			<ion-item>\n				<ion-label>Bueno</ion-label>\n				<ion-radio value="0"></ion-radio>\n			</ion-item>\n			<ion-item>\n				<ion-label>Regular</ion-label>\n				<ion-radio value="1"></ion-radio>\n			</ion-item>\n			<ion-item>\n				<ion-label>Malo</ion-label>\n				<ion-radio value="2"></ion-radio>\n			</ion-item>\n		</ion-list>\n		<ion-item>\n			<ion-textarea placeholder="Observación" formControlName="observacion"></ion-textarea>\n		</ion-item>\n		<ion-row>\n			<ion-col>\n				<button ion-button type="button" (click)="scanBarcode()">Scan Barcode</button>\n			</ion-col>\n			<ion-col>\n				<button ion-button type="submit" [disabled]="!item.valid">Add item</button>\n			</ion-col>\n		</ion-row>\n	</form>\n</ion-content>\n'/*ion-inline-end:"C:\Users\marti\OneDrive\Documents\ionic\qrCodeHC\src\pages\item\item.html"*/,
+            selector: 'page-item',template:/*ion-inline-start:"C:\Users\marti\OneDrive\Documents\ionic\qrCodeHC\src\pages\item\item.html"*/'<ion-header>\n	<ion-navbar>\n		<ion-title>Item</ion-title>\n	</ion-navbar>\n</ion-header>\n\n\n<ion-content padding>\n	<form [formGroup]="item" (ngSubmit)="submitItem()">\n		<h1>Ubicación</h1>\n		<ion-item>\n			<ion-input placeholder="Nivel 1" type="text" formControlName="nivel1"></ion-input>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Nivel 2" type="text" formControlName="nivel2"></ion-input>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Nivel 3" type="text" formControlName="nivel3"></ion-input>\n		</ion-item>\n		<h1>Item</h1>\n		<ion-item>\n			<ion-input placeholder="Code" type="text" formControlName="qrcode" (ionChange)="searchItem()"></ion-input>\n		</ion-item>\n		<ion-item *ngIf="itemsReady">\n			<ion-label>Nombre</ion-label>\n			<ion-select formControlName="nombre" (ionChange)="nameChanged()">\n				<ion-option *ngFor="let x of items" [value]="x.NOMBRE_STD">\n					{{ x.NOMBRE_STD }}\n				</ion-option>\n			</ion-select>\n		</ion-item>\n		<ion-item>\n			<ion-textarea placeholder="Descripción" formControlName="descripcion"></ion-textarea>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Marca" type="text" formControlName="marca"></ion-input>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Modelo" type="text" formControlName="modelo"></ion-input>\n		</ion-item>\n		<ion-item>\n			<ion-input placeholder="Serie" type="text" formControlName="serie"></ion-input>\n		</ion-item>\n		<ion-list radio-group formControlName="estado">\n			<ion-list-header>\n				Estado\n			</ion-list-header>\n			<ion-item>\n				<ion-label>Bueno</ion-label>\n				<ion-radio value="0"></ion-radio>\n			</ion-item>\n			<ion-item>\n				<ion-label>Regular</ion-label>\n				<ion-radio value="1"></ion-radio>\n			</ion-item>\n			<ion-item>\n				<ion-label>Malo</ion-label>\n				<ion-radio value="2"></ion-radio>\n			</ion-item>\n		</ion-list>\n		<ion-item>\n			<ion-textarea placeholder="Observación" formControlName="observacion"></ion-textarea>\n		</ion-item>\n		<ion-row>\n			<ion-col>\n				<button ion-button type="button" (click)="scanBarcode()">Scan Barcode</button>\n			</ion-col>\n			<ion-col>\n				<button ion-button type="submit" [disabled]="!item.valid">Add item</button>\n			</ion-col>\n		</ion-row>\n	</form>\n</ion-content>\n'/*ion-inline-end:"C:\Users\marti\OneDrive\Documents\ionic\qrCodeHC\src\pages\item\item.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */],
